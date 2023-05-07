@@ -1,16 +1,17 @@
-let base;
-let top;
-let dress;
-
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-}
+var base;
+var top;
+var dress;
 
 function preload() {
   base= loadImage('base.png');
   top= loadImage('top.png');
   dress= loadImage('dress.png');
 }
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+}
+
 
 let value = 0;
 function draw() {
