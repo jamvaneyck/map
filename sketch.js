@@ -13,7 +13,7 @@ function setup() {
 }
 
 
-let value = 0;
+
 function draw() {
   image(base,0,0);
   image(dress,0,0);
